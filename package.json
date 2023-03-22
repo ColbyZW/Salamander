@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node ./bot/index.js"
+  },
   "dependencies": {
     "discord.js": "^14.8.0",
     "dotenv": "^16.0.3"

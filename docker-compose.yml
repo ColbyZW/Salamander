@@ -1,0 +1,12 @@
+services:
+  bot:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+  mongo:
+    image: mongo
+    environment: 
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
